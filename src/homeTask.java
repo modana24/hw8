@@ -66,5 +66,6 @@ public class homeTask {
                                 System.out.print(first[index] + ",");
                         }
                 }
+
         }
 }
