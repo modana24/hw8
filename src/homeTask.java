@@ -61,8 +61,9 @@ public class homeTask {
 
                 //задача 4
                 for (int index = 0; index <= first.length; index ++) {
-                        index = first[index] + 1;
-                        System.out.print(index + ",");
+                        first[index] ++;
+
+                        System.out.print(first[index] + ",");
                 }
 
         }
