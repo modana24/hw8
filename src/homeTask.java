@@ -7,7 +7,7 @@ public class homeTask {
 
                 //задача 2
                 //печать первого массива
-                for (int index = 0; index <= first.length; index++) {
+                for (int index = 0; index < first.length; index++) {
                         if (index == first.length - 1) {
                                 System.out.println(first[index]);
                                 break;
@@ -15,7 +15,7 @@ public class homeTask {
                         System.out.print(first[index] + ",");
                 }
                 //печать второго массива
-                for (int index = 0; index <= second.length; index++) {
+                for (int index = 0; index < second.length; index++) {
                         if (index == second.length - 1) {
                                 System.out.println(second[index]);
                                 break;
@@ -23,7 +23,7 @@ public class homeTask {
                         System.out.print(second[index] + ",");
                 }
                 //печать третьего массива
-                for (int index = 0; index <= third.length; index++) {
+                for (int index = 0; index < third.length; index++) {
                         if (index == third.length - 1) {
                                 System.out.println(third[index]);
                                 break;
@@ -60,12 +60,13 @@ public class homeTask {
                 System.out.println();
 
                 //задача 4
-                for (int index = 0; index <= first.length; index ++) {
-                        first[index] ++;
-                        if (index % 2 == 0) {
-                                System.out.print(first[index] + ",");
+                for (int index = 0; index < first.length; index ++) {
+                        if (first[index] % 2 != 0) {
+                                first[index] ++;
                         }
+                        System.out.print(first[index] + ",");
                 }
+
 
         }
 }
