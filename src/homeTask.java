@@ -41,6 +41,7 @@ public class homeTask {
                 }
                 System.out.println();
 
+
                 //печать второго массива в обратном порядке
                 for (int i = second.length - 1; i >= 0; i--) {
                         System.out.print(second[i]);
